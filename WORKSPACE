@@ -89,8 +89,8 @@ http_archive(
 new_http_archive(
     name = "openexr",
     build_file = "third_party/openexr.BUILD",
-    strip_prefix = "openexr-2.2.1",
-    urls = ["https://github.com/AcademySoftwareFoundation/openexr/releases/download/v2.2.1/openexr-2.2.1.tar.gz"],
+    strip_prefix = "openexr-2.2.0",
+    urls = ["https://github.com/AcademySoftwareFoundation/openexr/archive/v2.2.0.zip"],
 )
 
 new_http_archive(
